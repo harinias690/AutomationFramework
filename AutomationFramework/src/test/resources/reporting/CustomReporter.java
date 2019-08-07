@@ -5,15 +5,15 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
-public class CustomReporter {
+import base.Base;
+
+public class CustomReporter extends Base {
 
 	private static ExtentHtmlReporter htmlReporter;
-	private static ExtentReports reports;
 	private static ExtentTest test;
 
 	
 	public static void reportingSetUp() {
-		System.out.println("before suite start"); //tbd
 		htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir")
 				+ "//report-output/myReport.html");
 		htmlReporter.config().setDocumentTitle("Automation Report");
@@ -25,7 +25,6 @@ public class CustomReporter {
 		reports.setSystemInfo("OS", "Windows");
 		reports.setSystemInfo("Browser", "Chrome");
 		reports.setSystemInfo("Author", "Harini");
-		System.out.println("before suite end"); //tbd
 	}
 
 	

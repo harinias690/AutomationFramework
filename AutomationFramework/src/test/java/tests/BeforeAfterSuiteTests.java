@@ -3,6 +3,7 @@ package tests;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
+import base.Base;
 import reporting.CustomReporter;
 
 public class BeforeAfterSuiteTests {

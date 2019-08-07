@@ -12,19 +12,15 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 
-import reporting.CustomReporter;
-
 import com.aventstack.extentreports.ExtentReports;
 
 public abstract class Base {
 
 	protected WebDriver driver;
 	protected Properties p;
-	protected ExtentReports reports;
+	protected static ExtentReports reports;
 
 	public Base() {
-		reports = CustomReporter.getExtentReports();
-		System.out.println("base constructor start");
 		p = new Properties();
 		try {
 			FileInputStream fis = new FileInputStream(
@@ -36,10 +32,8 @@ public abstract class Base {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-
-		System.out.println("base constructor end");
 	}
-
+	
 	public void setUp() {
 		String browser;
 		browser = p.getProperty("browser");
@@ -63,9 +57,11 @@ public abstract class Base {
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 
 	}
-
+	
 	public void tearDown() {
 		driver.quit();
 	}
+	
+	
 
 }

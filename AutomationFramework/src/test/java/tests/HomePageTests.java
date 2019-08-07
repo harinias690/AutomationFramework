@@ -13,7 +13,7 @@ public class HomePageTests extends Base {
 	private HomePage hp;
 
 	public HomePageTests() {
-
+		super();
 	}
 
 	@BeforeMethod
