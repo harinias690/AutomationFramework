@@ -2,42 +2,42 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="21094" started-at="2019-08-23T15:53:55Z" finished-at="2019-08-23T15:54:16Z">
+  <suite name="Suite" duration-ms="18073" started-at="2019-08-26T12:05:10Z" finished-at="2019-08-26T12:05:28Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="21094" started-at="2019-08-23T15:53:55Z" finished-at="2019-08-23T15:54:16Z">
+    <test name="Test" duration-ms="18073" started-at="2019-08-26T12:05:10Z" finished-at="2019-08-26T12:05:28Z">
       <class name="tests.BeforeAfterSuiteTests">
-        <test-method status="PASS" signature="bSuite()[pri:0, instance:tests.BeforeAfterSuiteTests@6df97b55]" name="bSuite" is-config="true" duration-ms="603" started-at="2019-08-23T15:53:55Z" finished-at="2019-08-23T15:53:55Z">
+        <test-method status="PASS" signature="bSuite()[pri:0, instance:tests.BeforeAfterSuiteTests@6df97b55]" name="bSuite" is-config="true" duration-ms="239" started-at="2019-08-26T12:05:10Z" finished-at="2019-08-26T12:05:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bSuite -->
-        <test-method status="PASS" signature="aSuite()[pri:0, instance:tests.BeforeAfterSuiteTests@6df97b55]" name="aSuite" is-config="true" duration-ms="948" started-at="2019-08-23T15:54:15Z" finished-at="2019-08-23T15:54:16Z">
+        <test-method status="PASS" signature="aSuite()[pri:0, instance:tests.BeforeAfterSuiteTests@6df97b55]" name="aSuite" is-config="true" duration-ms="578" started-at="2019-08-26T12:05:27Z" finished-at="2019-08-26T12:05:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aSuite -->
       </class> <!-- tests.BeforeAfterSuiteTests -->
       <class name="tests.HomePageTests">
-        <test-method status="PASS" signature="bm()[pri:0, instance:tests.HomePageTests@3cbbc1e0]" name="bm" is-config="true" duration-ms="9892" started-at="2019-08-23T15:53:55Z" finished-at="2019-08-23T15:54:05Z">
+        <test-method status="PASS" signature="bm()[pri:0, instance:tests.HomePageTests@3cbbc1e0]" name="bm" is-config="true" duration-ms="5992" started-at="2019-08-26T12:05:10Z" finished-at="2019-08-26T12:05:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bm -->
-        <test-method status="PASS" signature="verifyPageTitle()[pri:0, instance:tests.HomePageTests@3cbbc1e0]" name="verifyPageTitle" duration-ms="56" started-at="2019-08-23T15:54:05Z" finished-at="2019-08-23T15:54:05Z">
+        <test-method status="PASS" signature="verifyPageTitle()[pri:0, instance:tests.HomePageTests@3cbbc1e0]" name="verifyPageTitle" duration-ms="35" started-at="2019-08-26T12:05:16Z" finished-at="2019-08-26T12:05:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageTitle -->
-        <test-method status="PASS" signature="am()[pri:0, instance:tests.HomePageTests@3cbbc1e0]" name="am" is-config="true" duration-ms="3477" started-at="2019-08-23T15:54:05Z" finished-at="2019-08-23T15:54:09Z">
+        <test-method status="PASS" signature="am()[pri:0, instance:tests.HomePageTests@3cbbc1e0]" name="am" is-config="true" duration-ms="4913" started-at="2019-08-26T12:05:16Z" finished-at="2019-08-26T12:05:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- am -->
-        <test-method status="PASS" signature="bm()[pri:0, instance:tests.HomePageTests@3cbbc1e0]" name="bm" is-config="true" duration-ms="5091" started-at="2019-08-23T15:54:09Z" finished-at="2019-08-23T15:54:14Z">
+        <test-method status="PASS" signature="bm()[pri:0, instance:tests.HomePageTests@3cbbc1e0]" name="bm" is-config="true" duration-ms="4221" started-at="2019-08-26T12:05:21Z" finished-at="2019-08-26T12:05:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bm -->
-        <test-method status="PASS" signature="verfiyRegisterPresence()[pri:0, instance:tests.HomePageTests@3cbbc1e0]" name="verfiyRegisterPresence" duration-ms="306" started-at="2019-08-23T15:54:14Z" depends-on-methods="tests.HomePageTests.verifyPageTitle" finished-at="2019-08-23T15:54:14Z">
+        <test-method status="PASS" signature="verfiyRegisterPresence()[pri:0, instance:tests.HomePageTests@3cbbc1e0]" name="verfiyRegisterPresence" duration-ms="38" started-at="2019-08-26T12:05:25Z" depends-on-methods="tests.HomePageTests.verifyPageTitle" finished-at="2019-08-26T12:05:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verfiyRegisterPresence -->
-        <test-method status="PASS" signature="am()[pri:0, instance:tests.HomePageTests@3cbbc1e0]" name="am" is-config="true" duration-ms="670" started-at="2019-08-23T15:54:14Z" finished-at="2019-08-23T15:54:15Z">
+        <test-method status="PASS" signature="am()[pri:0, instance:tests.HomePageTests@3cbbc1e0]" name="am" is-config="true" duration-ms="2030" started-at="2019-08-26T12:05:25Z" finished-at="2019-08-26T12:05:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- am -->
